@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\MyGit\ThinkBridgeAssignment\ThinkBridgeInventoryService\Service\ThinkBridge.Inventory.Service.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationContract\ThinkBridge.Inventory.ApplicationContract.csproj" />
+    <ProjectReference Include="..\Application\ThinkBridge.Inventory.Application.csproj" />
+    <ProjectReference Include="..\PersistenceContract\ThinkBridge.Inventory.PersistenceContract.csproj" />
+    <ProjectReference Include="..\Persistence\ThinkBridge.Inventory.Persistence.csproj" />
+  </ItemGroup>
+
+
+</Project>

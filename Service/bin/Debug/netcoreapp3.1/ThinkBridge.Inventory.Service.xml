@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThinkBridge.Inventory.Service</name>
+    </assembly>
+    <members>
+        <member name="T:ThinkBridge.Inventory.Service.Controllers.InventoryController">
+            <summary>
+            InventoryController class
+            </summary>
+        </member>
+        <member name="M:ThinkBridge.Inventory.Service.Controllers.InventoryController.GetAllItems">
+            <summary>
+            This API can be used to get the list of all the items available in the inventory
+            </summary>
+            <returns>GetItemsResponse having list of all the available items in the inventory</returns>
+        </member>
+        <member name="M:ThinkBridge.Inventory.Service.Controllers.InventoryController.GetItemById(System.String)">
+            <summary>
+            This API can be used to get a particular item details by item id
+            </summary>
+            <param name="itemId">Item id of the requested item</param>
+            <returns>GetItemByIdResponse having the Item details of the requested item</returns>
+        </member>
+        <member name="M:ThinkBridge.Inventory.Service.Controllers.InventoryController.AddItem(ThinkBridge.Inventory.ApplicationContract.AddItemRequest)">
+            <summary>
+            This API can be used to add an item to the inventory
+            </summary>
+            <param name="request">AddItemRequest having the item details to be added</param>
+            <returns>AddItemResponse having the AddedItemId</returns>
+        </member>
+        <member name="M:ThinkBridge.Inventory.Service.Controllers.InventoryController.UpdateItem(ThinkBridge.Inventory.ApplicationContract.UpdateItemRequest)">
+            <summary>
+            This API can be used to update the item details of a specific item
+            </summary>
+            <param name="request">UpdateItemRequest having the item details to be updated</param>
+            <returns>UpdateItemResponse</returns>
+        </member>
+        <member name="M:ThinkBridge.Inventory.Service.Controllers.InventoryController.RemoveItem(System.String)">
+            <summary>
+            This API can be used to remove any item from the inventory
+            </summary>
+            <param name="itemId">Item id of the item to be removed</param>
+            <returns>RemoveItemResponse</returns>
+        </member>
+    </members>
+</doc>

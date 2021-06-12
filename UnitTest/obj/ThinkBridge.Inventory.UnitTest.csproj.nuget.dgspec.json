@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\UnitTest\\ThinkBridge.Inventory.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj",
+        "projectName": "ThinkBridge.Inventory.ApplicationContract",
+        "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj",
+        "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj",
+        "projectName": "ThinkBridge.Inventory.Application",
+        "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj",
+        "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj": {
+                "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj"
+              },
+              "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj"
+              },
+              "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj": {
+                "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj",
+        "projectName": "ThinkBridge.Inventory.DomainModel",
+        "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj",
+        "projectName": "ThinkBridge.Inventory.PersistenceContract",
+        "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj",
+        "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\UnitTest\\ThinkBridge.Inventory.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\UnitTest\\ThinkBridge.Inventory.UnitTest.csproj",
+        "projectName": "ThinkBridge.Inventory.UnitTest",
+        "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\UnitTest\\ThinkBridge.Inventory.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj": {
+                "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationContract\ThinkBridge.Inventory.ApplicationContract.csproj" />
+    <ProjectReference Include="..\DomainModel\ThinkBridge.Inventory.DomainModel.csproj" />
+    <ProjectReference Include="..\PersistenceContract\ThinkBridge.Inventory.PersistenceContract.csproj" />
+  </ItemGroup>
+
+</Project>

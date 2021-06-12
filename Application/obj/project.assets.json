@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ThinkBridge.Inventory.ApplicationContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ThinkBridge.Inventory.ApplicationContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThinkBridge.Inventory.ApplicationContract.dll": {}
+        }
+      },
+      "ThinkBridge.Inventory.DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ThinkBridge.Inventory.DomainModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThinkBridge.Inventory.DomainModel.dll": {}
+        }
+      },
+      "ThinkBridge.Inventory.PersistenceContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ThinkBridge.Inventory.DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ThinkBridge.Inventory.PersistenceContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThinkBridge.Inventory.PersistenceContract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThinkBridge.Inventory.ApplicationContract/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationContract/ThinkBridge.Inventory.ApplicationContract.csproj",
+      "msbuildProject": "../ApplicationContract/ThinkBridge.Inventory.ApplicationContract.csproj"
+    },
+    "ThinkBridge.Inventory.DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../DomainModel/ThinkBridge.Inventory.DomainModel.csproj",
+      "msbuildProject": "../DomainModel/ThinkBridge.Inventory.DomainModel.csproj"
+    },
+    "ThinkBridge.Inventory.PersistenceContract/1.0.0": {
+      "type": "project",
+      "path": "../PersistenceContract/ThinkBridge.Inventory.PersistenceContract.csproj",
+      "msbuildProject": "../PersistenceContract/ThinkBridge.Inventory.PersistenceContract.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ThinkBridge.Inventory.ApplicationContract >= 1.0.0",
+      "ThinkBridge.Inventory.DomainModel >= 1.0.0",
+      "ThinkBridge.Inventory.PersistenceContract >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\apurva.e.singh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj",
+      "projectName": "ThinkBridge.Inventory.Application",
+      "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\ThinkBridge.Inventory.Application.csproj",
+      "packagesPath": "C:\\Users\\apurva.e.singh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\apurva.e.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj": {
+              "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\ApplicationContract\\ThinkBridge.Inventory.ApplicationContract.csproj"
+            },
+            "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj": {
+              "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\DomainModel\\ThinkBridge.Inventory.DomainModel.csproj"
+            },
+            "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj": {
+              "projectPath": "C:\\Users\\apurva.e.singh\\Documents\\Assessment\\PersistenceContract\\ThinkBridge.Inventory.PersistenceContract.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

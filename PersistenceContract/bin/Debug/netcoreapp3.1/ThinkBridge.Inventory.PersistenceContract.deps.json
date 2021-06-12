@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ThinkBridge.Inventory.PersistenceContract/1.0.0": {
+        "dependencies": {
+          "ThinkBridge.Inventory.DomainModel": "1.0.0"
+        },
+        "runtime": {
+          "ThinkBridge.Inventory.PersistenceContract.dll": {}
+        }
+      },
+      "ThinkBridge.Inventory.DomainModel/1.0.0": {
+        "runtime": {
+          "ThinkBridge.Inventory.DomainModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThinkBridge.Inventory.PersistenceContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThinkBridge.Inventory.DomainModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
